@@ -12,7 +12,7 @@ import ProtectedRoutes from "./protectedRoutes";
 // import AdminRoutes from "./adminRoutes";
 
 const httpLink = createHttpLink({
-  uri: 'http://localhost:3000/graphql',
+  uri: '/graphql',
 });
 
 const authLink = setContext((_, { headers }) => {
