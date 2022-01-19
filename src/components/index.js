@@ -1,0 +1,10 @@
+export { default as Navbar } from "./layout/Navbar";
+export { default as Login } from "./auth/Login";
+export { default as Register } from "./auth/Register";
+export {default as Home} from "./home/Home";
+export {default as About} from "./about/About";
+export {default as Products} from "./products/Products";
+export {default as Contact} from "./contact/Contact";
+export {default as InsurancePlans} from "./adminPanel/insurancePlans/InsurancePlans";
+export {default as Profile} from "./adminPanel/profile/Profile";
+export {default as EditProfile} from "./adminPanel/profile/editProfile/EditProfile";
